@@ -187,7 +187,7 @@ class __TwigTemplate_143f7bf0387c6ca1929eb569a00d85cbf62512a3cd9c8295239d87f2997
 \t\t\t{% endblock %}
 \t\t</title>
 \t\t{# Run `composer require symfony/webpack-encore-bundle`
-\t\t\t\t\t\t           and uncomment the following Encore helpers to start using Symfony UX #}
+\t\t\t\t\t\t\t\t           and uncomment the following Encore helpers to start using Symfony UX #}
 \t\t{% block stylesheets %}
 \t\t\t{#{{ encore_entry_link_tags('app') }}#}
 \t\t\t<link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6\" crossorigin=\"anonymous\">

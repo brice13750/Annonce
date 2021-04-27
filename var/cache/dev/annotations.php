@@ -547,6 +547,24 @@ return [[
 '%5B%5BC%5DDoctrine%5CORM%5CPersisters%5CEntity%5CSingleTablePersister%23getSelectConditionDiscriminatorValueSQL%5D%5B1%5D' => 2,
 '%5BDoctrine%5CORM%5CPersisters%5CEntity%5CSingleTablePersister%23generateFilterConditionSQL%5D%5B1%5D' => 1,
 '%5B%5BC%5DDoctrine%5CORM%5CPersisters%5CEntity%5CSingleTablePersister%23generateFilterConditionSQL%5D%5B1%5D' => 2,
+'%5BSymfonyCasts%5CBundle%5CResetPassword%5CController%5CResetPasswordControllerTrait%5D%5B1%5D' => 1,
+'%5B%5BC%5DSymfonyCasts%5CBundle%5CResetPassword%5CController%5CResetPasswordControllerTrait%5D%5B1%5D' => 2,
+'%5BSymfonyCasts%5CBundle%5CResetPassword%5CController%5CResetPasswordControllerTrait%23setCanCheckEmailInSession%5D%5B1%5D' => 1,
+'%5B%5BC%5DSymfonyCasts%5CBundle%5CResetPassword%5CController%5CResetPasswordControllerTrait%23setCanCheckEmailInSession%5D%5B1%5D' => 2,
+'%5BSymfonyCasts%5CBundle%5CResetPassword%5CController%5CResetPasswordControllerTrait%23canCheckEmail%5D%5B1%5D' => 1,
+'%5B%5BC%5DSymfonyCasts%5CBundle%5CResetPassword%5CController%5CResetPasswordControllerTrait%23canCheckEmail%5D%5B1%5D' => 2,
+'%5BSymfonyCasts%5CBundle%5CResetPassword%5CController%5CResetPasswordControllerTrait%23storeTokenInSession%5D%5B1%5D' => 1,
+'%5B%5BC%5DSymfonyCasts%5CBundle%5CResetPassword%5CController%5CResetPasswordControllerTrait%23storeTokenInSession%5D%5B1%5D' => 2,
+'%5BSymfonyCasts%5CBundle%5CResetPassword%5CController%5CResetPasswordControllerTrait%23getTokenFromSession%5D%5B1%5D' => 1,
+'%5B%5BC%5DSymfonyCasts%5CBundle%5CResetPassword%5CController%5CResetPasswordControllerTrait%23getTokenFromSession%5D%5B1%5D' => 2,
+'%5BSymfonyCasts%5CBundle%5CResetPassword%5CController%5CResetPasswordControllerTrait%23setTokenObjectInSession%5D%5B1%5D' => 1,
+'%5B%5BC%5DSymfonyCasts%5CBundle%5CResetPassword%5CController%5CResetPasswordControllerTrait%23setTokenObjectInSession%5D%5B1%5D' => 2,
+'%5BSymfonyCasts%5CBundle%5CResetPassword%5CController%5CResetPasswordControllerTrait%23getTokenObjectFromSession%5D%5B1%5D' => 1,
+'%5B%5BC%5DSymfonyCasts%5CBundle%5CResetPassword%5CController%5CResetPasswordControllerTrait%23getTokenObjectFromSession%5D%5B1%5D' => 2,
+'%5BSymfonyCasts%5CBundle%5CResetPassword%5CController%5CResetPasswordControllerTrait%23cleanSessionAfterReset%5D%5B1%5D' => 1,
+'%5B%5BC%5DSymfonyCasts%5CBundle%5CResetPassword%5CController%5CResetPasswordControllerTrait%23cleanSessionAfterReset%5D%5B1%5D' => 2,
+'%5BSymfonyCasts%5CBundle%5CResetPassword%5CController%5CResetPasswordControllerTrait%23getSessionService%5D%5B1%5D' => 1,
+'%5B%5BC%5DSymfonyCasts%5CBundle%5CResetPassword%5CController%5CResetPasswordControllerTrait%23getSessionService%5D%5B1%5D' => 2,
 '%5BSymfony%5CBundle%5CFrameworkBundle%5CController%5CRedirectController%5D%5B1%5D' => 1,
 '%5B%5BC%5DSymfony%5CBundle%5CFrameworkBundle%5CController%5CRedirectController%5D%5B1%5D' => 2,
 '%5BSymfony%5CBundle%5CFrameworkBundle%5CController%5CRedirectController%23__construct%5D%5B1%5D' => 1,
@@ -660,7 +678,7 @@ return [[
 
 0 => 'N;',
 1 => [],
-2 => 1619466878,
+2 => 1619513551,
 3 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
@@ -670,10 +688,10 @@ return [[
         [
             'Symfony\\Component\\Routing\\Annotation\\Route' => [
                 'path' => [
-                    '/main',
+                    '/',
                 ],
                 'name' => [
-                    'main',
+                    'app_home',
                 ],
             ],
         ],

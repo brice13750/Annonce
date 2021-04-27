@@ -136,6 +136,10 @@ class __TwigTemplate_6de5c41b397ccfca8a3d3eaa8a888ed7362f60cf48d648cb9cc8a0f3147
         Sign in
     </button>
 </form>
+<p><a href=\"";
+        // line 42
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_forgot_password_request");
+        echo "\">Mot de passe oublié</a></p>
 ";
         
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
@@ -157,7 +161,7 @@ class __TwigTemplate_6de5c41b397ccfca8a3d3eaa8a888ed7362f60cf48d648cb9cc8a0f3147
 
     public function getDebugInfo()
     {
-        return array (  134 => 37,  128 => 24,  120 => 19,  115 => 16,  107 => 13,  104 => 12,  102 => 11,  99 => 10,  93 => 8,  91 => 7,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
+        return array (  141 => 42,  134 => 37,  128 => 24,  120 => 19,  115 => 16,  107 => 13,  104 => 12,  102 => 11,  99 => 10,  93 => 8,  91 => 7,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -203,6 +207,7 @@ class __TwigTemplate_6de5c41b397ccfca8a3d3eaa8a888ed7362f60cf48d648cb9cc8a0f3147
         Sign in
     </button>
 </form>
+<p><a href=\"{{ path('app_forgot_password_request') }}\">Mot de passe oublié</a></p>
 {% endblock %}
 ", "security/login.html.twig", "C:\\wamp64\\www\\annonces\\templates\\security\\login.html.twig");
     }
